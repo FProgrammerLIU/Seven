@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.myapp.EverydayPlan"
+    android:orientation="vertical"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:background="#CD6600">
+        <TextView
+            android:id="@+id/tv_back_longday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="@string/back"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="创建长期计划"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+        <TextView
+            android:id="@+id/tv_save_longday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="保存"
+            android:textSize="16sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="8">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/background_plan_create">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@drawable/headerboder"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text="计划名称"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:id="@+id/ed_longday_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:hint="Name"
+                android:background="#00000000"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/background_plan_create"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/headerboder"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="开始时间"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/starttime_long"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="7"
+                    android:textColor="#000000"
+                    android:text="2018-01-01"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="结束时间"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/endtime_long"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="7"
+                    android:textColor="#000000"
+                    android:text="2018-01-01"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/background_plan_create"/>
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:background="@drawable/headerboder"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="3"-->
+                <!--android:text="阶段一"-->
+                <!--android:textSize="16sp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:gravity="center"/>-->
+            <!--<EditText-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="7"-->
+                <!--android:background="#00000000"-->
+                <!--android:text="工作安排是..."/>-->
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:background="@drawable/headerboder"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="3"-->
+                <!--android:text="阶段二"-->
+                <!--android:textSize="16sp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:gravity="center"/>-->
+            <!--<EditText-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="7"-->
+                <!--android:background="#00000000"-->
+                <!--android:text="工作安排是..."/>-->
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:background="@drawable/headerboder"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="3"-->
+                <!--android:text="阶段三"-->
+                <!--android:textSize="16sp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:gravity="center"/>-->
+            <!--<EditText-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="7"-->
+                <!--android:background="#00000000"-->
+                <!--android:text="工作安排是..."/>-->
+
+        <!--</LinearLayout>-->
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/longday_layout"
+    android:orientation="vertical">
+
+
+
+
+
+
+   <Button
+       android:id="@+id/button_create_stage"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:text="+ 阶段工作"
+       android:background="#FFFFFF"
+       />
+
+
+
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/background_plan_create"/>
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@drawable/headerboder"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text="总体目标"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/ed_longday_goal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:background="#00000000"
+                android:hint="你的预计是..."/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/background_plan_create"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@drawable/headerboder"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text="完成奖励"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/ed_longday_record"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:background="#00000000"
+                android:hint="自己加鸡腿..."/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/background_plan_create"
+            />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
+

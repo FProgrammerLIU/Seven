@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:de.hdodenhof="http://schemas.android.com/tools"
+    android:layout_marginBottom="30dp"
+    android:background="@drawable/background"
+
+    >
+
+
+        <com.com.utils.ImageViewCircle
+            android:id="@+id/image_circle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.3"
+            android:src="@drawable/icon"
+            android:layout_margin="28dp"
+            />
+        <LinearLayout
+            android:id="@+id/info_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:text="刘航"
+            android:gravity="bottom"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:text="我有一个梦想"
+                    android:gravity="top"
+                    android:textColor="#FFFFFF"
+                    />
+        </LinearLayout>
+</LinearLayout>

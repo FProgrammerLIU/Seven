@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">seven</string>
+    <string name="create">seven days</string>
+    <string name="initView">暂无计划\n\n制定你的计划</string>
+    <string name="plan_everyday">每日计划</string>
+
+    <string name="plan_days">长期计划</string>
+    <string name="plan_yourself">自定计划</string>
+    <string name="plan_send">发布动态</string>
+    <string name="back">＜返回</string>
+</resources>

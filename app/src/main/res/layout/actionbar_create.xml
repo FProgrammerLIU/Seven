@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#CD6600"
+    android:orientation="horizontal"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<com.com.utils.ImageViewCircle-->
+        <!--android:id="@+id/image_circle_small"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="0.13"-->
+        <!--android:src="@drawable/icon"-->
+        <!--android:layout_margin="5dp"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="0.8"-->
+        <!--android:gravity="center"/>-->
+    <!--<com.nightonke.boommenu.BoomMenuButton-->
+        <!--android:id="@+id/create_boommenubar"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="0.15"-->
+        <!--android:layout_alignParentRight = "true"-->
+        <!--android:layout_alignParentEnd = "true"-->
+
+        <!--app:bmb_boomEnum="boomParabola_2"-->
+        <!--app:bmb_backgroundEffect="false"-->
+        <!--/>-->
+    <!--<ImageView-->
+        <!--android:id="@+id/imageview_sort"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="0.15"-->
+        <!--android:visibility="gone"-->
+        <!--android:background="@drawable/circleface1"-->
+        <!--/>-->
+    <!--<ImageView-->
+        <!--android:id="@+id/imageview_friend"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="0.15"-->
+        <!--android:background="@drawable/circleface1"-->
+        <!--android:visibility="gone"/>-->
+
+</LinearLayout>

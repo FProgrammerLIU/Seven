@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/my_plans_finish"
+            android:title="已完成计划"
+            android:icon="@drawable/ic_menu_agenda"
+            />
+        <item android:id="@+id/my_plans_failed"
+            android:title="未完成计划"
+            android:icon="@drawable/ic_menu_clear_playlist"/>
+        <item android:id="@+id/collect_menu"
+            android:title="我的收藏"
+            android:icon="@drawable/star_big_on"/>
+        <item android:id="@+id/color"
+            android:title="个性主题"
+            android:icon="@drawable/perm_group_bookmarks"/>
+        <item android:id="@+id/setting"
+            android:title="设置"
+            android:icon="@drawable/perm_group_app_info"/>
+
+    </group>
+</menu>
